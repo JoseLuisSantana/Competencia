@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href="/src/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego del elevador</title>
+</head>
+<body>
+    <div>
+        <img src="src/img/escenario.jpg" style="position:fixed;">
+    </div>
+    <div style = "left:670px;  width: 400px; height: 420px; position: fixed;">
+        <p>dificultad 1 -facil    a 3 - dificil</p>
+        <div class = "row row-cols-3 row-cols-lg-3">
+            
+            <div class = "col-4 col-lg-2" style="width: 12px; height: 12px" id = "dificultadatras">
+            
+                <img src = "src/img/atras.png" >
+            
+            
+            </div>
+            <p class = "col-4 col-lg-2" id = numeroDificultad style="width: 12px; height: 12px">1</p>
+            <div class = "col-4 col-lg-2" id = "dificultadsiguiente" style = "text-align: center; width: 12px; height: 12px; aspect-ratio: 23px; ">
+            
+                <img src = "src/img/siguiente.png" >
+            </div>
+        </div>
+        <p>canitdad de personas que puede llevar el elevador</p>
+        <div class = "row row-cols-3 row-cols-lg-3">
+            
+            <div class = "col-4 col-lg-2" style="width: 12px; height: 12px" id = "personasAtras">
+            
+                <img src = "src/img/atras.png" >
+            
+            
+            </div>
+            <p class = "col-4 col-lg-2" id = "numeroDePersonas" style="width: 12px; height: 12px">5</p>
+            <div class = "col-4 col-lg-2" id = "personasAdelante" style = "text-align: center; width: 12px; height: 12px; aspect-ratio: 23px; ">
+            
+                <img src = "src/img/siguiente.png" >
+            </div>
+        </div>
+
+        <div>rankin</div>
+        <div id = "rankintop">rankin</div>
+        <p>---------------------------------------</p>
+        <div>mis puntos</div>
+        <div id = "puntos">0</div>
+        <p>---------------------------------------</p>
+        <div>personas en el elevador</div>
+        <div id = "personasEnElElevador">0</div>
+    </div>
+
+    <script src="clases/persona.js" > </script>
+    <script src="clases/elevador.js" > </script>
+    <script src="src/js/main.js" > </script>
+</body>
+</html>

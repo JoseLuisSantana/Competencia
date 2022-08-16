@@ -1,0 +1,21 @@
+:root{
+    --border_r:0px
+}
+.vida{
+    height: 25px; 
+    width: 250px; 
+    top: 100px; 
+    left: 70px; 
+    box-shadow: inset 6px 6px 12px #ffffff, inset -6px -6px 12px #ffffff;
+    background-color: rgb(255, 255, 255); 
+    overflow: hidden;
+    border-radius: var(--border_r);
+}
+.progreso{
+    height: 100%;
+    width: 100;
+    background-color: #FF0000;
+    box-shadow: inset 0px 0px 100px #FF0000, inset 0px 0px 200px #FF0000;
+    display: block;
+    border-radius: var(--border_r);
+}
